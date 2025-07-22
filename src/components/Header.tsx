@@ -1,18 +1,14 @@
 import { User, Settings, LogOut } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 interface HeaderProps {
   userType?: "admin" | "implementer" | "client";
   userName?: string;
 }
-
-export const Header = ({ userType = "admin", userName = "Usuario" }: HeaderProps) => {
+export const Header = ({
+  userType = "admin",
+  userName = "Usuario"
+}: HeaderProps) => {
   const getUserTypeLabel = () => {
     switch (userType) {
       case "admin":
@@ -25,16 +21,12 @@ export const Header = ({ userType = "admin", userName = "Usuario" }: HeaderProps
         return "Usuário";
     }
   };
-
-  return (
-    <header className="bg-card border-b border-border shadow-soft">
+  return <header className="bg-card border-b border-border shadow-soft">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         {/* Logo/Brand */}
         <div className="flex items-center gap-3">
           <div className="flex items-center">
-            <div className="text-2xl font-bold text-solarz-black tracking-tight">
-              solar<span className="text-primary">Z</span>
-            </div>
+            
           </div>
           <div className="border-l border-border pl-3">
             <h1 className="text-lg font-bold text-solarz-black">Portal de Implementação</h1>
@@ -68,6 +60,5 @@ export const Header = ({ userType = "admin", userName = "Usuario" }: HeaderProps
           </DropdownMenu>
         </div>
       </div>
-    </header>
-  );
+    </header>;
 };
