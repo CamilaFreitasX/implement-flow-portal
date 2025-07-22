@@ -117,7 +117,7 @@ const Index = () => {
             <div className="p-3 bg-gradient-primary rounded-lg w-fit mb-4">
               <Zap className="h-6 w-6 text-white" />
             </div>
-            <CardTitle className="text-xl text-corporate-navy">Gestão Centralizada</CardTitle>
+            <CardTitle className="text-xl text-solarz-black">Gestão Centralizada</CardTitle>
           </CardHeader>
           <CardContent>
             <p className="text-muted-foreground">
@@ -131,7 +131,7 @@ const Index = () => {
             <div className="p-3 bg-gradient-primary rounded-lg w-fit mb-4">
               <Calendar className="h-6 w-6 text-white" />
             </div>
-            <CardTitle className="text-xl text-corporate-navy">Agenda Integrada</CardTitle>
+            <CardTitle className="text-xl text-solarz-black">Agenda Integrada</CardTitle>
           </CardHeader>
           <CardContent>
             <p className="text-muted-foreground">
@@ -145,7 +145,7 @@ const Index = () => {
             <div className="p-3 bg-gradient-primary rounded-lg w-fit mb-4">
               <Target className="h-6 w-6 text-white" />
             </div>
-            <CardTitle className="text-xl text-corporate-navy">Acompanhamento Real</CardTitle>
+            <CardTitle className="text-xl text-solarz-black">Acompanhamento Real</CardTitle>
           </CardHeader>
           <CardContent>
             <p className="text-muted-foreground">
@@ -161,7 +161,7 @@ const Index = () => {
     <div className="space-y-8">
       <div className="flex items-center justify-between">
         <div>
-          <h2 className="text-2xl font-bold text-corporate-navy">Dashboard Administrativo</h2>
+          <h2 className="text-2xl font-bold text-solarz-black">Dashboard Administrativo</h2>
           <p className="text-muted-foreground">Visão geral de todos os projetos e implementadores</p>
         </div>
         <Button onClick={() => setActiveView("overview")} variant="outline">
@@ -187,7 +187,7 @@ const Index = () => {
     <div className="space-y-8">
       <div className="flex items-center justify-between">
         <div>
-          <h2 className="text-2xl font-bold text-corporate-navy">Portal do Implementador</h2>
+          <h2 className="text-2xl font-bold text-solarz-black">Portal do Implementador</h2>
           <p className="text-muted-foreground">Gerencie suas implementações e clientes</p>
         </div>
         <Button onClick={() => setActiveView("overview")} variant="outline">
@@ -212,7 +212,7 @@ const Index = () => {
     <div className="space-y-8">
       <div className="flex items-center justify-between">
         <div>
-          <h2 className="text-2xl font-bold text-corporate-navy">Portal do Cliente</h2>
+          <h2 className="text-2xl font-bold text-solarz-black">Portal do Cliente</h2>
           <p className="text-muted-foreground">Acompanhe sua implementação</p>
         </div>
         <Button onClick={() => setActiveView("overview")} variant="outline">
@@ -231,7 +231,7 @@ const Index = () => {
           
           <Card className="shadow-medium">
             <CardHeader>
-              <CardTitle className="text-lg text-corporate-navy">Próxima Reunião</CardTitle>
+              <CardTitle className="text-lg text-solarz-black">Próxima Reunião</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="space-y-4">
@@ -269,7 +269,7 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-corporate-light to-white">
+    <div className="min-h-screen bg-gradient-to-br from-solarz-gray-light to-white">
       <Header userType={getUserType()} userName="Demo User" />
       
       <main className="container mx-auto px-4 py-8">

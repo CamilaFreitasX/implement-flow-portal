@@ -34,7 +34,7 @@ export const ImplementerProfile = ({ implementer }: ImplementerProfileProps) => 
             )}
           </div>
           <div className="flex-1">
-            <h3 className="text-xl font-bold text-corporate-navy">{implementer.name}</h3>
+            <h3 className="text-xl font-bold text-solarz-black">{implementer.name}</h3>
             <p className="text-sm text-muted-foreground mb-2">{implementer.experience}</p>
             <div className="flex items-center gap-4 text-sm text-muted-foreground">
               <div className="flex items-center gap-1">
@@ -52,12 +52,12 @@ export const ImplementerProfile = ({ implementer }: ImplementerProfileProps) => 
       
       <CardContent className="space-y-4">
         <div>
-          <h4 className="font-semibold text-corporate-navy mb-2">Sobre o Implementador</h4>
+          <h4 className="font-semibold text-solarz-black mb-2">Sobre o Implementador</h4>
           <p className="text-sm text-muted-foreground leading-relaxed">{implementer.bio}</p>
         </div>
 
         <div>
-          <h4 className="font-semibold text-corporate-navy mb-2">Especialidades</h4>
+          <h4 className="font-semibold text-solarz-black mb-2">Especialidades</h4>
           <div className="flex flex-wrap gap-2">
             {implementer.specialties.map((specialty, index) => (
               <Badge key={index} variant="secondary" className="bg-accent text-accent-foreground">
@@ -68,7 +68,7 @@ export const ImplementerProfile = ({ implementer }: ImplementerProfileProps) => 
         </div>
 
         <div className="space-y-2">
-          <h4 className="font-semibold text-corporate-navy">Contato</h4>
+          <h4 className="font-semibold text-solarz-black">Contato</h4>
           <div className="space-y-2">
             <Button variant="ghost" size="sm" className="justify-start p-0 h-auto">
               <Mail className="h-4 w-4 mr-2 text-primary" />

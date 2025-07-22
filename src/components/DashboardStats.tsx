@@ -44,7 +44,7 @@ export const DashboardStats = () => {
             <stat.icon className="h-4 w-4 text-primary" />
           </CardHeader>
           <CardContent>
-            <div className="text-2xl font-bold text-corporate-navy">{stat.value}</div>
+            <div className="text-2xl font-bold text-solarz-black">{stat.value}</div>
             <p className="text-xs text-muted-foreground mt-1">
               {stat.description}
             </p>

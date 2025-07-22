@@ -52,7 +52,7 @@ export const ImplementationProgress = ({
     <Card className="shadow-medium">
       <CardHeader>
         <CardTitle className="flex items-center justify-between">
-          <span className="text-lg font-bold text-corporate-navy">
+          <span className="text-lg font-bold text-solarz-black">
             Progresso da Implementação
           </span>
           <span className="text-2xl font-bold text-primary">
@@ -72,7 +72,7 @@ export const ImplementationProgress = ({
               
               <div className="flex-1 min-w-0">
                 <div className="flex items-start justify-between gap-2 mb-1">
-                  <h4 className="font-medium text-corporate-navy text-sm">
+                  <h4 className="font-medium text-solarz-black text-sm">
                     {step.title}
                   </h4>
                   {getStatusBadge(step.status)}

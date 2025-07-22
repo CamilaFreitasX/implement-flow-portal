@@ -52,11 +52,11 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				corporate: {
-					blue: 'hsl(var(--corporate-blue))',
-					navy: 'hsl(var(--corporate-navy))',
-					light: 'hsl(var(--corporate-light))',
-					gray: 'hsl(var(--corporate-gray))'
+				solarz: {
+					black: 'hsl(var(--solarz-black))',
+					white: 'hsl(var(--solarz-white))',
+					'gray-light': 'hsl(var(--solarz-gray-light))',
+					gray: 'hsl(var(--solarz-gray))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
